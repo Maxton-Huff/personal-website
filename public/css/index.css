@@ -1,10 +1,10 @@
-html {
-    width: 100%;
+h1.brand {
+    color: White;
 }
 
 img {
     display: block;
-    max-width: 20%;
+    max-width: 15%;
 }
 
 .intro {
@@ -13,7 +13,7 @@ img {
 }
 
 body {
-    background-color: rgb(176, 175, 199);
+    background-color: rgb(49, 48, 48);
     width: 100%;
     margin-left: 0;
     margin-top: 0;
@@ -27,8 +27,15 @@ body {
 header {
     display: flex;
     justify-content: center;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(0, 0, 0);
     border-bottom: 5px solid rgb(0, 0, 0);
     margin-bottom: 1.5rem;
     width: 100%;
+    justify-content: space-around;
+}
+
+.intro, .products {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(197, 194, 194);
 }
