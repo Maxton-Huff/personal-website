@@ -1,0 +1,18 @@
+img {
+    display: block;
+    max-width: 20%;
+}
+
+.introbanner {
+    display: flex;
+    gap: 1rem;
+}
+
+body {
+    background-color: rgb(176, 175, 199);
+}
+
+.brand {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
