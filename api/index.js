@@ -1,6 +1,7 @@
 import bodyParser from "body-parser";
 import cors from "cors";
 import express from "express";
+import { MongoClient } from "mongodb";
 
 const MONGODB_URL = process.env.MONGODB_URL || "mongodb://127.0.0.1";
 let DATABASE_NAME = "personal_website";
